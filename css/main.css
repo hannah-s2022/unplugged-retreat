@@ -96,6 +96,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
+  color: #e2e3ed;
 }
 
 a {
@@ -109,15 +110,17 @@ ol {
 }
 
 h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
 }
 
 h3,
 h4 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
   margin: 20px 0;
+  color: #e2e3ed;
+  font-weight: 500;
 }
 
 p {
@@ -137,6 +140,7 @@ margin: 50px 0;
 /* -------------------- Base Header - Footer Styles -------------------- */
 header,
 footer {
+  background-color: #202322;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,6 +160,7 @@ header .content-wrapper {
 }
 
 .header-divider {
+  background-color: #3a3a3a;
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
@@ -166,6 +171,9 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
   width: 60%;
 }
 
@@ -173,10 +181,12 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  font-size: 1.125em;
 }
 
 footer {
   flex-direction: column;
+  text-align: center;
 }
 
 footer p {
@@ -218,6 +228,14 @@ footer .copyright {
   flex-flow: row wrap;
 }
 
+.hero-area h1 {
+  font-size: 2.25em;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #e2e3ed;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
 /* Aside */
 
 aside {
@@ -225,6 +243,33 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Features */
@@ -261,6 +306,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -281,6 +327,7 @@ aside {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #527158;
    }
 
    .contact-section {
@@ -288,6 +335,7 @@ aside {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #2a423a;
    }
 
    .contact-content {
@@ -303,6 +351,7 @@ aside {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #527158;
    }
 
    .faq .content-wrapper {
@@ -315,11 +364,16 @@ aside {
 
    .faq h2 {
     margin-bottom: 40px;
+    line-height: 1;
    }
    
    .faq-content {
     margin-bottom: 50px;
    }
+
+   .faq-content h4 {
+    line-height: 1.333;
+  }
 
 /* ==========================================================================
    Helper classes
