@@ -86,10 +86,52 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*General styles*/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.875em;
+}
+
+h3,
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.125em;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 0.875em;
+  line-height: 1.285;
+}
+
+address {
+  font-style: normal;
+}
 
 .content-wrapper {
-  width: 90%;
-  margin: 50px 0;
+width: 90%;
+margin: 50px 0;
 }
 
 /* -------------------- Base Header - Footer Styles -------------------- */
@@ -507,6 +549,10 @@ aside {
 
 @media only screen and (min-width: 1200px) {
     /**Desktop styles here**/
+
+    header {
+      padding: 15px 0;
+    }
 
     .content-wrapper {
       max-width: 960px;
