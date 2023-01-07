@@ -197,7 +197,6 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  font-size: 1.125em;
 }
 
 footer {
@@ -775,7 +774,7 @@ input[type=button] {
       width: 90%;
     }
 
-    features article {
+    .features article {
       flex-basis: 33%;
     }
 
