@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  scroll-behavior: smooth;
 }
 
 /*
@@ -404,7 +405,7 @@ input[type=button] {
    }
 
    .faq .content-wrapper {
-    margin: 50PX 0 0 0;
+    margin: 50px 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
